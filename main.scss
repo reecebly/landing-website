@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .header {
@@ -10,10 +11,34 @@ body {
   height: 40%;
   width: 100%;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+}
+
+.content {
+  display: block;
+  float: left;
+  background-color: white;
+  color: black;
+  height: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  float: left;
+  background-color: #6B7BA9;
+  color: white;
+  height: 20%;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
   font-size: 100px;
   margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 50px;
+  color: #D5D6D2;
 }
