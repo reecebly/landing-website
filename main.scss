@@ -8,7 +8,7 @@ body {
   float: left;
   background-color: #3A5199;
   color: white;
-  height: 40%;
+  height: 30%;
   width: 100%;
   text-align: center;
 }
@@ -18,7 +18,7 @@ body {
   float: left;
   background-color: white;
   color: black;
-  height: 40%;
+  height: 60%;
   width: 100%;
   text-align: center;
 }
@@ -28,17 +28,23 @@ body {
   float: left;
   background-color: #6B7BA9;
   color: white;
-  height: 20%;
+  height: 10%;
   width: 100%;
   text-align: center;
 }
 
 h1 {
+  margin-top: 20px;
   font-size: 100px;
   margin-bottom: 0px;
 }
 
 h3 {
   font-size: 50px;
+  margin: 0;
   color: #D5D6D2;
+}
+
+h4 {
+  margin-top: 5px;
 }
