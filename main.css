@@ -16,6 +16,19 @@ body {
   text-align: center;
 }
 
+.header h1 {
+  margin-top: 20px;
+  font-size: 100px;
+  margin-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header h3 {
+  font-size: 50px;
+  margin: 0;
+  color: #D5D6D2;
+}
+
 .content {
   display: block;
   float: left;
@@ -26,11 +39,28 @@ body {
   text-align: center;
 }
 
-.content h2 {
+.content .row {
+  width: 100%;
   height: 20%;
+  display: block;
+  float: left;
+}
+
+.row h2 {
   font-size: 50px;
   margin: 0;
   width:51%;
+  display: block;
+  float: left;
+}
+
+.row i {
+  width: 10%;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 50px;
+  display: block;
+  float: left;
 }
 
 .footer {
@@ -42,25 +72,41 @@ body {
   text-align: center;
 }
 
-h1 {
-  margin-top: 20px;
-  font-size: 100px;
-  margin-bottom: 0px;
-  font-family: 'Raleway', sans-serif;
-}
-
-h3 {
-  font-size: 50px;
-  margin: 0;
-  color: #D5D6D2;
-}
-
-h4 {
+.footer h4 {
   margin-top: 5px;
   margin-bottom: 0;
 }
 
+.fas.fa-file {
+  color: #ffd11a;
+}
+.fab.fa-linkedin {
+  color: #007acc;
+}
+.fab.fa-github {
+  color: #ff471a;
+}
+.fas.fa-blog {
+  color: #00cc66;
+}
+.fas.fa-paper-plane {
+  color: #9933ff;
+}
 
-i {
-  font-size: 50px;
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 25%;
+  }
+  .header h1 {
+    font-size: 60px;
+  }
+  .header h3 {
+    font-size: 40px;
+  }
+  .content {
+    height: 65%;
+  }
+  .row h2 {
+    margin-left: 20%;
+  }
 }
