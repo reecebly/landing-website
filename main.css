@@ -35,7 +35,7 @@ a {
   margin: 0px 0px 20px 0px;
 }
 .header h1 span {
-  color: #999999;
+  color: #06cf68;
   font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ a {
 .content .leftColumn .row h2 {
   font-weight: 100;
   font-size: 45px;
-  color: #999999;
+  color: #1f4060;
   margin: 10px 0px 0px 0px;
   text-align: left;
   width: 230px;
@@ -86,7 +86,7 @@ a {
 
 .content .leftColumn .row h2:hover {
   cursor: pointer;
-  color: #1f4060;
+  color: #999999;
 }
 
 .content .rightColumn h3 {
