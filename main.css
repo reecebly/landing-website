@@ -1,15 +1,15 @@
 /*
   Colors:
-    Green - #06cf68
-    Blue  - #1f4060
-    Navy  - #12263b
-    Grey  - #999999
-    Dark  - #262626
+    Brown - #763626
+    Grey  - #2a3132
+    Mist  - #90afc5
+    Stone - #2a586f
+    Navy  - #23495c
 */
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -22,8 +22,8 @@ a {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #005580; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#1f4060, #12263b);
+  background-color: #2a586f; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#2a586f, #23495c);
 }
 .header img {
   width: 300px;
@@ -35,14 +35,14 @@ a {
   margin: 0px 0px 20px 0px;
 }
 .header h1 span {
-  color: #06cf68;
-  font-weight: bold;
+  color: #763626;
+
 }
 
 .content {
   display: block;
   float: left;
-  color: #262626;
+  color: #2a3132;
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -51,9 +51,9 @@ a {
 .content .subHeader h2 {
   font-size: 50px;
   font-weight: 100;
-  color: #262626;
-  border-top: 2px solid #06cf68;
-  border-bottom: 2px solid #06cf68;
+  color: #2a3132;
+  border-top: 2px solid #763626;
+  border-bottom: 2px solid #763626;
 }
 .content .leftColumn, .content .rightColumn{
   width: 40%;
@@ -73,27 +73,26 @@ a {
 .content .leftColumn .row h2 {
   font-weight: 100;
   font-size: 45px;
-  color: #1f4060;
   margin: 10px 0px 0px 0px;
   text-align: left;
   width: 230px;
+  color: #2a586f;
   margin-left: calc(50% - 115px);
 }
 .content .leftColumn .row i {
   font-size: 30px;
-  color: #1f4060;
 }
 
 .content .leftColumn .row h2:hover {
   cursor: pointer;
-  color: #999999;
+  color: #90afc5;
 }
 
 .content .rightColumn h3 {
   display: block;
   float: left;
   color: white;
-  background-color: #1f4060;
+  background-color: #2a586f;
   padding: 10px;
   margin: 15px 7px 0px 0px;
   border-radius: 5px;
@@ -106,7 +105,7 @@ a {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #999999;
+  background-color: #2a586f;
   bottom: 0;
 }
 .footer h4 {
@@ -116,7 +115,7 @@ a {
 }
 .footer h4 span {
   font-weight: 500;
-  color: #1f4060;
+  color: #763626;
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,0 +1,106 @@
+/*
+  Colors:
+    Salmon - #cd6d78
+    Blue  - #1f4060
+    Navy  - #13263a
+    Grey  - #999999
+    Dark  - #262626
+*/
+
+body {
+  margin: 0;
+  color: #262626;
+  background-color: #13263a;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resume {
+  display: block;
+  float: left;
+  margin: 100px 0px 100px 0px;
+  margin-left: calc(50% - 400px);
+  width: 800px;
+  background-color: white;
+}
+
+.resume .header {
+  height: 300px;
+  width: 100%;
+  background-color: #1f4060;
+}
+
+.resume .content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.resume .content .section {
+  height: fit-content;
+  display: block;
+  float: left;
+  width: 90%;
+  margin: 20px 5% 0px 5%;
+  font-size: 15px;
+}
+
+.resume .content .section h3 {
+  font-weight: bold;
+  border-bottom: 2px solid #1f4060;
+  color: #1f4060;
+}
+
+.resume .content .section .title {
+  display: block;
+  float: right;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.resume .content .section .title span {
+  color: #cd6d78;
+}
+
+.resume .content .section .bubble {
+  display: block;
+  float: left;
+  color: white;
+  background-color: #1f4060;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 3px 3px 3px 0px;
+}
+
+#project{
+  margin: 0px;
+}
+
+.resume .footer {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #d9d9d9;
+  padding: 10px 0px 10px 0px;
+  display: block;
+  float: left;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 20px;
+  border-top: 1px solid #d9d9d9;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .resume {
+    width: 100%;
+    margin: 0;
+  }
+
+  .resume .content {
+    width: 90%;
+    grid-template-columns: 100%;
+
+  }
+}
