@@ -35,8 +35,7 @@ a {
   margin: 0px 0px 20px 0px;
 }
 .header h1 span {
-  color: #763626;
-
+  color: #90afc5;
 }
 
 .content {
@@ -105,7 +104,7 @@ a {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #2a586f;
+  background-color: #90afc5;
   bottom: 0;
 }
 .footer h4 {
