@@ -1,11 +1,15 @@
-/*
-  Colors:
-    Brown - #763626
-    Grey  - #2a3132
-    Mist  - #90afc5
-    Stone - #2a586f
-    Navy  - #23495c
-*/
+:root {
+  --primary: #2B2B2B;
+  --secondary: #181818;
+  --tertiary: #979595;
+  --blue: #3C74DB;
+  --green: #6BB645;
+  --red: #DB4B3B;
+  --yellow: #FACB00;
+  --orange: #FFA14A;
+  --purple: #833BDB;
+  --brown: #885F4B;
+}
 
 body {
   margin: 0;
@@ -22,8 +26,8 @@ a {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #2a586f; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#2a586f, #23495c);
+  background-color: var(--secondary); /* For browsers that do not support gradients */
+  background-image: linear-gradient(var(--secondary), black);
 }
 .header img {
   width: 300px;
@@ -35,13 +39,13 @@ a {
   margin: 0px 0px 20px 0px;
 }
 .header h1 span {
-  color: #90afc5;
+  color: var(--tertiary);
+  font-weight: bold;
 }
 
 .content {
   display: block;
   float: left;
-  color: #2a3132;
   width: 100%;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -50,9 +54,9 @@ a {
 .content .subHeader h2 {
   font-size: 50px;
   font-weight: 100;
-  color: #2a3132;
-  border-top: 2px solid #763626;
-  border-bottom: 2px solid #763626;
+  color: var(--primary);
+  border-top: 2px solid var(--tertiary);
+  border-bottom: 2px solid var(--tertiary);
 }
 .content .leftColumn, .content .rightColumn{
   width: 40%;
@@ -75,7 +79,7 @@ a {
   margin: 10px 0px 0px 0px;
   text-align: left;
   width: 230px;
-  color: #2a586f;
+  color: var(--secondary);
   margin-left: calc(50% - 115px);
 }
 .content .leftColumn .row i {
@@ -84,18 +88,43 @@ a {
 
 .content .leftColumn .row h2:hover {
   cursor: pointer;
-  color: #90afc5;
+  color: var(--tertiary);
 }
 
 .content .rightColumn h3 {
   display: block;
   float: left;
   color: white;
-  background-color: #2a586f;
+  background-color: var(--secondary);
   padding: 10px;
   margin: 15px 7px 0px 0px;
   border-radius: 5px;
   font-weight: 100;
+}
+
+#software {
+  background-color: var(--blue);
+}
+#martial {
+  background-color: var(--red);
+}
+#sports {
+  background-color: var(--green);
+}
+#music {
+  background-color: var(--yellow);
+}
+#music {
+  background-color: var(--yellow);
+}
+#reading {
+  background-color: var(--purple);
+}
+#gaming {
+  background-color: var(--orange);
+}
+#coffee {
+  background-color: var(--brown);
 }
 
 .footer {
@@ -104,7 +133,7 @@ a {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #90afc5;
+  background-color: var(--primary);
   bottom: 0;
 }
 .footer h4 {
@@ -114,7 +143,7 @@ a {
 }
 .footer h4 span {
   font-weight: 500;
-  color: #763626;
+  color: var(--tertiary);
 }
 
 @media only screen and (max-width: 750px) {

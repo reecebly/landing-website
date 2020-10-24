@@ -1,16 +1,14 @@
-/*
-  Colors:
-    Salmon - #cd6d78
-    Blue  - #1f4060
-    Navy  - #13263a
-    Grey  - #999999
-    Dark  - #262626
-*/
+:root {
+  --primary: #2B2B2B;
+  --secondary: #181818;
+  --tertiary: #979595;
+  --link: #D86363;
+}
 
 body {
   margin: 0;
-  color: #262626;
-  background-color: #13263a;
+  color: #04202c;
+  background-color: var(--primary);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -24,15 +22,46 @@ body {
 }
 
 .resume .header {
-  height: 300px;
+  height: 200px;
   width: 100%;
-  background-color: #1f4060;
+  background-color: var(--secondary);
+}
+
+.resume .header img {
+  width: 150px;
+  border-radius: 150px;
+  margin-top: 25px;
+  margin-left: 550px;
+  position: absolute;
+}
+
+.resume .header h1 {
+  font-family: 'Poppins', san-serif;
+  font-weight: 100;
+  font-size: 80px;
+  color: #d4dde1;
+  margin: 0;
+  padding: 20px 0 0 20px;
+}
+
+.resume .header h2 {
+  color: var(--tertiary);
+  font-weight: 100;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.resume .header i {
+  color: var(--link);
+  font-size: 25px;
+  width: 30px;
 }
 
 .resume .content {
   width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
+  margin-top: 10px;
 }
 
 .resume .content .section {
@@ -40,14 +69,28 @@ body {
   display: block;
   float: left;
   width: 90%;
-  margin: 20px 5% 0px 5%;
+  margin: 0px 5% 0px 5%;
   font-size: 15px;
 }
 
+.resume .content .section .row {
+  margin: 15px 0 10px 0;
+  color: var(--primary);
+}
 .resume .content .section h3 {
   font-weight: bold;
-  border-bottom: 2px solid #1f4060;
-  color: #1f4060;
+  border-bottom: 1px solid var(--tertiary);
+  color: var(--secondary);
+  margin-bottom: 0;
+}
+
+.resume .content .section h4 {
+  margin: 5px 0 5px 0;
+  color: var(--tertiary);
+}
+
+#experience h4 {
+  margin: 25px 0 20px 0;
 }
 
 .resume .content .section .title {
@@ -58,14 +101,14 @@ body {
 }
 
 .resume .content .section .title span {
-  color: #cd6d78;
+  color: var(--secondary);
 }
 
 .resume .content .section .bubble {
   display: block;
   float: left;
   color: white;
-  background-color: #1f4060;
+  background-color: var(--primary);
   padding: 8px;
   border-radius: 3px;
   font-size: 12px;
@@ -74,20 +117,31 @@ body {
 
 #project{
   margin: 0px;
+  margin-top: -10px;
+  letter-spacing: 1px;
+}
+
+.resume .content .section h5 {
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.resume .content .section h5 span{
+  color: var(--link);
 }
 
 .resume .footer {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  color: #d9d9d9;
+  color: #d4dde1;
   padding: 10px 0px 10px 0px;
   display: block;
   float: left;
   width: 95%;
   margin-left: 2.5%;
   margin-top: 20px;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid #d4dde1;
 
 }
 
@@ -98,9 +152,38 @@ body {
     margin: 0;
   }
 
-  .resume .content {
-    width: 90%;
-    grid-template-columns: 100%;
+  .resume .header {
+    height: 235px;
+  }
 
+  .resume .header img {
+    width: 100px;
+    margin-left: calc(50% - 50px);
+  }
+
+  .resume .header h1 {
+    padding-top: 120px;
+    font-size: 55px;
+  }
+
+  .resume .header h2 {
+    font-size: 20px;
+  }
+
+  .resume .header h1, .resume .header h2 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .resume .content {
+    grid-template-columns: 100%;
+  }
+
+  .resume .content .section .title {
+    display: inline;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 13px;
+    margin-top: 3px;
   }
 }
