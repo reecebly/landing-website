@@ -1,14 +1,14 @@
 :root {
-  --primary: #2B2B2B;
-  --secondary: #181818;
-  --tertiary: #979595;
-  --link: #D86363;
+  --primary: #1B1B1B;
+  --secondary: #4C4B4B;
+  --tertiary: #A1A1A1;
+  --link: #DC5D6C;
 }
 
 body {
   margin: 0;
   color: #04202c;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,12 +19,14 @@ body {
   margin-left: calc(50% - 400px);
   width: 800px;
   background-color: white;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 20px 5px rgba(0,0,0,0.41);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 0px 20px 5px rgba(0,0,0,0.41);
 }
 
 .resume .header {
   height: 200px;
   width: 100%;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 .resume .header img {
@@ -75,18 +77,23 @@ body {
 
 .resume .content .section .row {
   margin: 15px 0 10px 0;
-  color: var(--primary);
+  color: var(--secondary);
+}
+
+.resume .content .section .row a {
+  text-decoration: none;
+  color: var(--secondary);
 }
 .resume .content .section h3 {
   font-weight: bold;
-  border-bottom: 1px solid var(--tertiary);
-  color: var(--secondary);
+  border-bottom: 1px solid var(--primary);
+  color: var(--primary);
   margin-bottom: 0;
 }
 
 .resume .content .section h4 {
   margin: 5px 0 5px 0;
-  color: var(--tertiary);
+  color: var(--primary);
 }
 
 #experience h4 {
@@ -101,14 +108,14 @@ body {
 }
 
 .resume .content .section .title span {
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 .resume .content .section .bubble {
   display: block;
   float: left;
   color: white;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   padding: 8px;
   border-radius: 3px;
   font-size: 12px;
