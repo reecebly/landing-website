@@ -3,6 +3,6 @@
 My Landing Page
 
 Provides links to the user for other ways to find my content.
-These include my resume, linkedin, github, blog, and email.
+These include my resume, linkedin, github, and email.
 
-Also it lists out some of the things in life that interest me such as software development, martial arts, music, etc.
+Touches on some of experience as a developer, and highlighting other interests as well.
