@@ -1,6 +1,4 @@
-/* :root {
-  --primary: #2B2B2B;
-} */
+
 
 body {
     margin: 0;
@@ -149,14 +147,15 @@ a {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.other__interests i {
-  margin: 24px;
+.other__interests a {
+  color: white;
 }
-
-.other__interests i:hover {
+.other__interests a:hover {
   color: #44318D;
   cursor: pointer;
+}
+.other__interests i {
+  margin: 24px;
 }
 
 .footer {
