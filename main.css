@@ -57,7 +57,7 @@ a {
 }
 
 .header__container_title, .header__container_subtitle {
-  color: #A4B3B6;
+  color: #d92680;
   font-size: 48px;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -76,7 +76,7 @@ a {
 }
 
 .header__container_logo {
-  width: 200px;
+  width: 240px;
 }
 
 .content {
@@ -209,11 +209,12 @@ a {
     padding-top: 32px;
   }
   .header__container_title, .header__container_subtitle {
-    font-size: 40px;
+    font-size: 32px;
+    width: 90%;
     margin: 32px 0px;
   }
   .header__container_logo {
-    width: 120px;
+    width: 160px;
   }
   .content {
     width: 90%;
